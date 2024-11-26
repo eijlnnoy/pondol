@@ -1,0 +1,81 @@
+        /* Set the background image */
+        .main-bg {
+            background-image: url('/1.png'); /* Replace with your actual image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        /* Overlay for readability */
+        .overlay {
+            color: white;
+            text-align: center;
+            padding-top: 30vh;
+            position: relative;
+        }
+
+        /* Center content text */
+        .overlay h1 {
+            font-size: 3rem;
+        }
+
+        /* Buttons section */
+        .btn-group {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .btn-custom:hover {
+            background-color: #e04a2b;
+        }
+
+        /* Adjust sections to avoid overlap with the navbar */
+        section {
+            margin-top: 80px;
+        }
+
+        /* Black Navbar */
+        .navbar {
+            background-color:rgb(14, 1, 1);
+        }
+
+        /* Navbar links with a border */
+        .navbar-nav .nav-link {
+            border-bottom: 1px solid transparent;
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link:hover {
+            border-bottom: 2px solid rgb(14, 1, 1);
+        }
+
+        /* Style for the logo */
+        .navbar-logo {
+            max-height: 40px; /* Adjust the size of the logo */
+            width: auto;
+        }
+
+        /* Achievement Section Styles */
+        .achievement-section {
+            background-color: #FFEB3B; /* Yellow background */
+            padding: 60px 0;
+        }
+        .card {
+            margin: 15px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+                }
